@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# ignoring the config.js file
+config.js 
+
 # C extensions
 *.so
 
