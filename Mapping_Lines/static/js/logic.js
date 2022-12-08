@@ -2,6 +2,7 @@
 console.log("working");
 
 // Create the map object with a center and zoom level.
+// Map is centered on Whichita, Kansas
 let map = L.map('mapid').setView([37.6872, -97.3301], 5);
 // let map = L.map('mapid').setView([34.0522, -118.2437], 14);
 
@@ -29,10 +30,15 @@ let map = L.map('mapid').setView([37.6872, -97.3301], 5);
 
 // Coordinated for each point to be used in the polyline below
 let line = [
+    // coordinates for Los Angeles International Airport (LAX)
     [37.6214, -122.3790],
+    // coordinates for Auburn, CA Municipal Airport (AUN)
     [38.9542, -121.0806],
+    // coordinates for Austin-Bergstrom International Airport (AUS)
     [30.1975, -97.6664],
+    // coordinates for Toronto Pearson International Airport (YYZ)
     [43.6777, -79.6248],
+    // coordinates for John F. Kennedy International Airport (JFK)
     [40.6413, -73.7781]
 ];
 
